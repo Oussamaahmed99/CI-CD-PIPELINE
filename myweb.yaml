@@ -34,7 +34,7 @@ spec:
           persistentVolumeClaim:
             claimName: mywebclaim
       containers:
-      - image: jfcoronado/myweb:1
+      - image: jfcoronado/myweb:3
         imagePullPolicy: Always
         name: myweb
         volumeMounts:
